@@ -42,5 +42,5 @@ app.listen(app.get('port'), () => {
   Logger.log('info',`App is running at ${app.get('host')}:${app.get('port')}`);
   console.log('info',`App is running at ${app.get('host')}:${app.get('port')}`);
 });
-
+x
 module.exports = app;
